@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+}
+
+
+/* === Page css start here === */
+
+.container {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:300px;
+    margin:0 auto;
+}
+.calc {
+    padding:20px;
+    background: #1c1c1c;
+    border-radius: 10px;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.2rem;
+}
+input {
+    width:100%;
+    height:45px;
+    outline: none;
+    text-align: right;
+    margin-top:1rem;
+    margin-bottom: 1.5rem;
+    padding-right:10px;
+    font-size:1.5rem;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+button {
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    display: block;
+    font-size:1rem;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    border:0px;
+    color: #ffffff;
+    cursor: pointer
+}
+button:hover {
+    background-color: rgb(250, 235, 215, 0.8);
+}
+button.equal {
+    width:121px;
+    border-radius: 10px;
+}
+.number {
+    background-color: #505050;
+}
+.yellowbg {
+    background-color: #ff9500;
+}
+.greybg {
+    background-color: #d4d4d2;
+    color: #000000;
+}

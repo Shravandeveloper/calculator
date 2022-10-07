@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <section id="page_wrapper">
+        <div class="container">
+            <div class="calc">
+               <input type="text" placeholder="0" id="result">
+                <div class="buttons">
+                    <button onclick="Clear()" class="button greybg">Clr</button>
+                    <button onclick="del()" class="button greybg">Del</button>
+                    <button onclick="displaydata('%')" class="button yellowbg">%</button>
+                    <button onclick="displaydata('/')" class="button yellowbg">/</button>
+
+                    <button onclick="displaydata('1')" class="button number">1</button>
+                    <button onclick="displaydata('2')" class="button number">2</button>
+                    <button onclick="displaydata('3')" class="button number">3</button>
+                    <button onclick="displaydata('*')" class="button yellowbg">*</button>
+
+                    <button onclick="displaydata('4')" class="button number">4</button>
+                    <button onclick="displaydata('5')" class="button number">5</button>
+                    <button onclick="displaydata('6')" class="button number">6</button>
+                    <button onclick="displaydata('-')" class="button yellowbg">-</button> 
+                    
+                    <button onclick="displaydata('7')" class="button number">7</button>
+                    <button onclick="displaydata('8')" class="button number">8</button>
+                    <button onclick="displaydata('9')" class="button number">9</button>
+                    <button onclick="displaydata('+')" class="button yellowbg">+</button>
+
+                    <button onclick="displaydata('.')" class="button number">.</button>
+                    <button onclick="displaydata('0')" class="button number">0</button>
+                    <button onclick="calculate()" class="equal yellowbg">=</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+  </body>
+  <script src="js/app.js"></script>
+</html>
